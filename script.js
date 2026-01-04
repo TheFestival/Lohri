@@ -291,3 +291,17 @@ function shareEverywhere() {
     window.open(whatsapp, "_blank");
   }
 }
+
+
+// ===== Affiliate Click Tracking (GA4) =====
+document.querySelectorAll('.affiliate-card').forEach((card, index) => {
+  card.addEventListener('click', () => {
+    if (typeof gtag === 'function') {
+      gtag('event', 'affiliate_click', {
+        event_category: 'affiliate',
+        event_label: card.innerText.trim(),
+        value: index + 1
+      });
+    }
+  });
+});
