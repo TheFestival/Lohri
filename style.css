@@ -426,3 +426,51 @@ footer {
   box-shadow: 0 0 22px rgba(255,140,0,0.7);
 }
 
+/* ================= AFFILIATE SECTION ================= */
+
+.affiliate-section {
+  margin: 50px auto;
+  padding: 20px 10px;
+  max-width: 360px;
+  text-align: center;
+}
+
+.affiliate-section h3 {
+  margin-bottom: 6px;
+  font-size: 23px;
+  color: #ffcc80;
+}
+
+.affiliate-sub {
+  font-size: 15px;
+  opacity: 0.85;
+  margin-bottom: 18px;
+}
+
+.affiliate-card {
+  display: block;
+  margin: 12px auto;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  box-shadow: 0 0 18px rgba(255, 140, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.affiliate-card span {
+  display: block;
+  font-size: 11px;
+  opacity: 0.7;
+  margin-top: 4px;
+}
+
+.affiliate-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 28px rgba(255, 140, 0, 0.45);
+}
+
+
+
